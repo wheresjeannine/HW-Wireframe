@@ -1,63 +1,65 @@
-body {
+.body_format {
 	background: #777;
 	font-family: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
 }
 
-header {
+.header_format {
+	position: relative;
 	width: 60%;
 	padding: 20px;
 	border: black;
-	background: white;
+	background: #D3D3D3;
+	text-align: center;
+	color: gray;
+	font-size: 18px;
+	margin: auto;
+	left: 10px;
+}
+
+.nav_format {
+	width: 60%;
+	padding: 20px;
+	border: black;
+	background: #D3D3D3;
 	text-align: center;
 	color: gray;
 	font-size: 18px;
 	margin: auto;
 }
 
-nav {
-	width: 60%;
-	padding: 20px;
-	border: black;
-	background: white;
-	text-align: center;
-	color: gray;
-	font-size: 18px;
-	margin: auto;
-}
-
-section {
-	width: 30%;
-	background: white;
+.section_format {
+	width: 25%;
+	background: #D3D3D3;
 	float: left;
 	text-align: center;
-    margin-left: 180px;
-    margin-right: auto;
+    margin-left: 255px;
 	padding: 20px;
 	color: gray;
 }
 
-article {
+.article_format {
 	background: #777;
 	margin: 20px;
-	color: white;
+	color: #D3D3D3;
 	padding: 5px;
 }
 
 
-aside {
-	width: 30%;
-	background: white;
+.aside_format {
+	width: 27%;
+	background: #D3D3D3;
 	text-align: center;
 	float: left;
-    margin-left: auto;
-    margin-right: auto;
-    height: 219px;
-    padding: 20px;
+    margin-left: 31px;
+    height: 175px;
+    padding: 40px;
     color: gray;
 }
 
-h1 {
-	background: white;
+.header1_format {
+	background: #D3D3D3;
 	color: #777;
 	width: 70%;
     margin-left: auto;
@@ -65,8 +67,8 @@ h1 {
     padding: 10px;
 }
 
-p {
-	background: white;
+.paragraph_format {
+	background: #D3D3D3;
 	color: #777;
 	width: 70%;
     margin-left: auto;
@@ -74,11 +76,14 @@ p {
     padding: 10px;
 }
 
-footer {
+.footer_format {
 	clear: both;
-	background: white;
+	background: #D3D3D3;
 	color: gray;
 	text-align: center;
 	padding-top: 20px;
-	margin: 100px;
+	padding-bottom: 20px;
+	margin-top: 280px;
+	margin-left: 254px;
+	width: 63%;
 }
